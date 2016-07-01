@@ -59,4 +59,22 @@ Activities:
     - Unit testing
         + Very big topic
         + Requires practicing programming so that your code is testable
-        + Requires solid understanding of *Single Responsibility Principle*
+        + Requires solid understanding of SOLID principles - especially *Single Responsibility Principle*
+
+## Day 3 - Understanding Docker
+
+Activities:
+* Start your day reading "Docker for Beginners" http://prakhar.me/docker-curriculum/ [120 mins]
+    - Should we skip "Docker on AWS"?
+    - Don't try building the image if you are not comfortable with python
+    - Use http://zeroturnaround.com/rebellabs/docker-for-java-developers-how-to-sandbox-your-app-in-a-clean-environment/ to create an image of a Java web application
+* Understanding docker ecosystem by "Digital Ocean" https://www.digitalocean.com/community/tutorials/the-docker-ecosystem-an-introduction-to-common-components [35 mins]
+* Understanding docker ecosystem by "Codeship" https://dzone.com/articles/understanding-the-docker-ecosystem-via-codeship [30 mins]
+* Learn how a Dockerfile is used to build a Docker image
+* Learn how you can mount external volumes into a container to achieve file system (storage) persistence 
+* Learn about how containers are stateless
+* Learn about how container images are "layer"able
+* Learn about docker-compose
+* Learn about docker-network
+* Learn about the different file storage systems (BTRFS, AUFS, ZFS, etc)
+* Learn about the reasons different storage systems are better or worse for Docker images
