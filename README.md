@@ -1,5 +1,16 @@
 # Developer Onboarding Roadmap
 
+## Day 0 - Setting up Ubuntu Desktop
+
+Activities:
+* Setting up dual boot with Windows and Ubuntu
+* Understanding Ubuntu Versions. Prefer to use LTS versions.
+* Understanding basic admin commands (especially apt-get)
+* Install Google Chrome, Mozilla Firefox, Thunderbird (Optional)
+* Install Java 8, Go lang
+* Don't install anything on system Python
+    - Ubuntu internally uses system Python (beware of `pip install` and `easy-install` commands)
+
 ## Day 1 - Learning DVCS concepts and GIT
 
 Pre-requisites: 
@@ -64,17 +75,23 @@ Activities:
 ## Day 3 - Understanding Docker
 
 Activities:
-* Start your day reading "Docker for Beginners" http://prakhar.me/docker-curriculum/ [120 mins]
+* Start your day reading "Docker for Beginners" http://prakhar.me/docker-curriculum/ - Upto section 2.4 [150 mins]
     - Should we skip "Docker on AWS"?
     - Don't try building the image if you are not comfortable with python
     - Use http://zeroturnaround.com/rebellabs/docker-for-java-developers-how-to-sandbox-your-app-in-a-clean-environment/ to create an image of a Java web application
+    - Or use https://www.toptal.com/devops/getting-started-with-docker-simplifying-devops which also contains a small Java application which you can containerize
+    - Yet another docker introduction using Java app - http://www.javaworld.com/article/3000781/development-tools/open-source-java-projects-docker.html
 * Understanding docker ecosystem by "Digital Ocean" https://www.digitalocean.com/community/tutorials/the-docker-ecosystem-an-introduction-to-common-components [35 mins]
 * Understanding docker ecosystem by "Codeship" https://dzone.com/articles/understanding-the-docker-ecosystem-via-codeship [30 mins]
-* Learn how a Dockerfile is used to build a Docker image
+* Learning Docker Network and Docker Compose
+    - Start over at section 3 - http://prakhar.me/docker-curriculum/ [120 mins]
 * Learn how you can mount external volumes into a container to achieve file system (storage) persistence 
 * Learn about how containers are stateless
 * Learn about how container images are "layer"able
-* Learn about docker-compose
-* Learn about docker-network
 * Learn about the different file storage systems (BTRFS, AUFS, ZFS, etc)
 * Learn about the reasons different storage systems are better or worse for Docker images
+
+More References:
+* Cheatsheet - http://zeroturnaround.com/wp-content/uploads/2016/03/Docker-cheat-sheet-by-RebelLabs.png
+* Lots of blogs - https://www.digitalocean.com/community/tags/docker?type=tutorials
+* Setting up Redis Server - https://scotch.io/tutorials/getting-started-with-docker
