@@ -11,6 +11,9 @@ Activities:
 * Don't install anything on system Python
     - Ubuntu internally uses system Python (beware of `pip install` and `easy-install` commands)
 
+References:
+* Tutorials from DigitalOcean - https://www.digitalocean.com/community/tags/ubuntu?type=tutorials
+
 ## Day 1 - Learning DVCS concepts and GIT
 
 Pre-requisites: 
@@ -81,10 +84,18 @@ Activities:
     - Use http://zeroturnaround.com/rebellabs/docker-for-java-developers-how-to-sandbox-your-app-in-a-clean-environment/ to create an image of a Java web application
     - Or use https://www.toptal.com/devops/getting-started-with-docker-simplifying-devops which also contains a small Java application which you can containerize
     - Yet another docker introduction using Java app - http://www.javaworld.com/article/3000781/development-tools/open-source-java-projects-docker.html
+    - https://examples.javacodegeeks.com/devops/docker/introduction-docker-java-developers/
+    - https://blog.giantswarm.io/getting-started-with-java-development-on-docker/
 * Understanding docker ecosystem by "Digital Ocean" https://www.digitalocean.com/community/tutorials/the-docker-ecosystem-an-introduction-to-common-components [35 mins]
 * Understanding docker ecosystem by "Codeship" https://dzone.com/articles/understanding-the-docker-ecosystem-via-codeship [30 mins]
-* Learning Docker Network and Docker Compose
+* Learning Docker Network and Docker Compose [120 mins]
     - Start over at section 3 - http://prakhar.me/docker-curriculum/ [120 mins]
+    - https://linuxconfig.org/basic-example-on-how-to-link-docker-containers
+    - https://www.javacodegeeks.com/2015/11/deploying-containers-docker-swarm-docker-networking.html
+    - https://aggarwalarpit.wordpress.com/2015/11/28/dockerizing-web-application-with-puppet/
+    - https://aggarwalarpit.wordpress.com/2015/12/06/running-web-application-in-linked-docker-containers-environment/
+    - http://blog.arungupta.me/docker-bridge-overlay-network-compose-variable-substitution/
+    - https://blog.codecentric.de/en/2014/01/docker-networking-made-simple-3-ways-connect-lxc-containers/
 * Learn how you can mount external volumes into a container to achieve file system (storage) persistence 
 * Learn about how containers are stateless
 * Learn about how container images are "layer"able
