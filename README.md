@@ -100,12 +100,45 @@ Activities:
     - https://docs.docker.com/engine/tutorials/dockervolumes/
     - https://www.digitalocean.com/community/tutorials/how-to-work-with-docker-data-volumes-on-ubuntu-14-04
     - http://container-solutions.com/understanding-volumes-docker/
-* Learn about how containers are stateless (???)
-* Learn about how container images are "layer"able (???)
-* Learn about the different file storage systems (BTRFS, AUFS, ZFS, etc) (???)
-* Learn about the reasons different storage systems are better or worse for Docker images (???)
 
 More References:
 * Cheatsheet - http://zeroturnaround.com/wp-content/uploads/2016/03/Docker-cheat-sheet-by-RebelLabs.png
 * Lots of blogs - https://www.digitalocean.com/community/tags/docker?type=tutorials
 * Setting up Redis Server - https://scotch.io/tutorials/getting-started-with-docker
+
+## Day 4 - Remaining topics of docker
+
+Activities:
+* Learn about how containers are stateless (???)
+* Learn about how container images are "layer"able (???)
+* Learn about the different file storage systems (BTRFS, AUFS, ZFS, etc) (???)
+* Learn about the reasons different storage systems are better or worse for Docker images (???)
+
+## Day 5 - Getting started with Go
+
+Activities:
+* Read "Introducing Go" [8 hrs]
+    - Practice examples as you come across in the book
+
+## Day 6 - More Go lang
+
+Activities
+* Go by Example - https://gobyexample.com/ [4 hrs]
+* Effective Go - https://golang.org/doc/effective_go.html [ 4 hrs]
+
+## Day 7 - Continue learning and practicing Go lang
+
+Activities: [8 hrs]
+* Anytime you need to search on Google for a Go question, search with the term "golang" instead of "go"..
+* When conducting code reviews of Go code, be sure to look out for the common [Go Code Review gotchas](https://github.com/golang/go/wiki/CodeReviewComments)
+* Learn about ["embedded" types](https://www.goinggo.net/2014/05/methods-interfaces-and-embedded-types.html)
+* Function (or Method) names are mixedCase (or CamelCase) depending on their scope. CamelCase items (functions, structs, and values at the package level) have "public" visibility in their package, mixedCase have "private" (internal to the package only) visibility. This is not only idiomatic Go but enforced by the compiler and runtime. Do not use Hungarian notation - Go is a typed language, you don't need the name of the variable to be verbose with unnecessary type hints.
+* Use go-doc Commentary conventions as described in [Effective Go - Commentary](https://golang.org/doc/effective_go.html#commentary) to document all public methods, functions, structs and exposed packages. Also worth reading is [Go Doc, Go!](https://godoc.org/github.com/natefinch/godocgo)
+* Ensure your functions and methods handle error scenarios and return tuples so that the caller can check for errors before proceeding further. This is the idiomatic Go way to avoid try/catch/finally blocks. Instead, return a tuple of the value and an error: (returnValue ReturnValueType, err error) and set err to nil if the value in returnValue is safe to read/use/proceed-with. You can use (returnValue ReturnValueType, ok bool) as an alternative ([map lookups work like this](https://blog.golang.org/go-maps-in-action)) in simple cases where an error case is reducible to a yes/no or true/false or good/no-good type result. 
+* Ensure that any and all variables you reference in a deferred block of code are not nil, since at run-time you may trigger a panic.
+    - See an example of this as a [bug being fixed in Jisto code](http://gitlab.jisto.com/jisto/scheduler/issues/5), examine this change: [d7a81e5b7](http://gitlab.jisto.com/jisto/scheduler/commit/d7a81e5b7e28603f2cec155e132b3fd356043dd7).
+* [Go's channels are Bad and you should Feel Bad](http://www.jtolds.com/writing/2016/03/go-channels-are-bad-and-you-should-feel-bad/) (Opinion piece, worth a read)
+* [Go Concurrency Patterns: "Context"](https://blog.golang.org/context)
+* [Understanding Defer, Panic and Recover](http://www.goinggo.net/2013/06/understanding-defer-panic-and-recover.html)
+    - Understanding how to use defer and recover in your application can be a bit tricky at first, especially if you are used to using try/catch blocks. There is a pattern you can implement to provide that same type of try/catch protection in Go. Before I can show you this you need to learn how Defer, Panic and Recover work. (read link)
+* [Monitoring Golang Production Server Memory Stats](https://gitlab.jisto.com/andrey/wiki/wikis/golang-memstats-guide)
