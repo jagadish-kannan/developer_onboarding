@@ -96,11 +96,14 @@ Activities:
     - https://aggarwalarpit.wordpress.com/2015/12/06/running-web-application-in-linked-docker-containers-environment/
     - http://blog.arungupta.me/docker-bridge-overlay-network-compose-variable-substitution/
     - https://blog.codecentric.de/en/2014/01/docker-networking-made-simple-3-ways-connect-lxc-containers/
-* Learn how you can mount external volumes into a container to achieve file system (storage) persistence 
-* Learn about how containers are stateless
-* Learn about how container images are "layer"able
-* Learn about the different file storage systems (BTRFS, AUFS, ZFS, etc)
-* Learn about the reasons different storage systems are better or worse for Docker images
+* Learn how you can mount external volumes into a container to achieve file system (storage) persistence [60 mins]
+    - https://docs.docker.com/engine/tutorials/dockervolumes/
+    - https://www.digitalocean.com/community/tutorials/how-to-work-with-docker-data-volumes-on-ubuntu-14-04
+    - http://container-solutions.com/understanding-volumes-docker/
+* Learn about how containers are stateless (???)
+* Learn about how container images are "layer"able (???)
+* Learn about the different file storage systems (BTRFS, AUFS, ZFS, etc) (???)
+* Learn about the reasons different storage systems are better or worse for Docker images (???)
 
 More References:
 * Cheatsheet - http://zeroturnaround.com/wp-content/uploads/2016/03/Docker-cheat-sheet-by-RebelLabs.png
