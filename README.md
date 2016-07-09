@@ -142,3 +142,34 @@ Activities: [8 hrs]
 * [Understanding Defer, Panic and Recover](http://www.goinggo.net/2013/06/understanding-defer-panic-and-recover.html)
     - Understanding how to use defer and recover in your application can be a bit tricky at first, especially if you are used to using try/catch blocks. There is a pattern you can implement to provide that same type of try/catch protection in Go. Before I can show you this you need to learn how Defer, Panic and Recover work. (read link)
 * [Monitoring Golang Production Server Memory Stats](https://gitlab.jisto.com/andrey/wiki/wikis/golang-memstats-guide)
+
+## Day 8 - Learning Node.js
+
+Activities:
+* Follow the tutorial at http://www.tutorialspoint.com/nodejs/ [8 hrs]
+    - Skip "Web Module", "Express Framework", "ReSTful API" and "Scaling Application" sections 
+* Study [Lo-Dash](https://lodash.com/docs) or [Underscore](http://underscorejs.org/)
+
+## Day 9 - Protocol Buffers
+
+Activities:
+* We are using Protocol Buffers version 3.0, syntax guide: [proto3](https://developers.google.com/protocol-buffers/docs/proto3). [4 hrs]
+    - https://en.wikipedia.org/wiki/Protocol_Buffers
+    - https://developers.google.com/protocol-buffers/docs/overview
+    - http://blog.codeclimate.com/blog/2014/06/05/choose-protocol-buffers/
+    - https://developers.google.com/protocol-buffers/docs/gotutorial - Protobuf & Golang
+    - https://github.com/dcodeIO/ProtoBuf.js/ - Protobuf & Node.js
+* Write a Go Program to take Person and Address information at command line and serialize the protobuf representation into a file.
+* Write a Go Program to read the Person and Address information from the serialized file and display in the console.
+
+## Day 10 - gRPC
+
+Activities:
+* gRPC is a language-neutral, platform-neutral, open source, remote procedure call (RPC) system initially developed at Google.
+* It builds on top of protobuf and HTTP2
+* http://www.grpc.io/docs/
+* http://www.grpc.io/docs/guides/concepts.html
+* http://www.grpc.io/docs/tutorials/basic/go.html - gRPC & Golang
+* http://www.grpc.io/docs/tutorials/basic/node.html - gRPC & Node.js
+
+## Day 11-15 - Interactive Project
