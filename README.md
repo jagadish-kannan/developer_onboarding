@@ -9,12 +9,22 @@ Activities:
 * Install Google Chrome, Mozilla Firefox, Thunderbird (Optional)
 * Install Java 8, Go lang
 * Don't install anything on system Python
-    - Ubuntu internally uses system Python (beware of `pip install` and `easy-install` commands)
+    - Ubuntu internally uses system Python (beware of `pip install` and `easy_install` commands)
 
 References:
 * Tutorials from DigitalOcean - https://www.digitalocean.com/community/tags/ubuntu?type=tutorials
 
-## Day 1 - Learning DVCS concepts and GIT
+## Day 1 - Linux Fundamentals
+
+Activities:
+Follow these tutorials to learn and get comfortable with Linux fundamentals and command line
+* http://www.funtoo.org/Linux_Fundamentals,_Part_1
+* http://www.funtoo.org/Linux_Fundamentals,_Part_2
+* http://www.funtoo.org/Linux_Fundamentals,_Part_3
+* http://www.funtoo.org/Linux_Fundamentals,_Part_4
+    - Do not try these on your main machine. Use a virtualbox instance if you want to try them out.
+
+## Day 2 - Learning DVCS concepts and GIT
 
 Pre-requisites: 
 * Jeavio Github Account with an organization setup 
@@ -45,7 +55,7 @@ Activities:
 Further Reading:
 * https://git-scm.com/book/en/v2 (Must Read)
 
-## Day 2 (More GIT and Testing Practices)
+## Day 3 (More GIT and Testing Practices)
 Activities:
 * Understanding semantic versioning [60 mins]
     - http://semver.org
@@ -75,7 +85,7 @@ Activities:
         + Requires practicing programming so that your code is testable
         + Requires solid understanding of SOLID principles - especially *Single Responsibility Principle*
 
-## Day 3 - Understanding Docker
+## Day 4 - Understanding Docker
 
 Activities:
 * Start your day reading "Docker for Beginners" http://prakhar.me/docker-curriculum/ - Upto section 2.4 [150 mins]
@@ -106,7 +116,7 @@ More References:
 * Lots of blogs - https://www.digitalocean.com/community/tags/docker?type=tutorials
 * Setting up Redis Server - https://scotch.io/tutorials/getting-started-with-docker
 
-## Day 4 - Remaining topics of docker
+## Day 5 - Remaining topics of docker
 
 Activities:
 * Learn about how containers are stateless (???)
@@ -114,19 +124,19 @@ Activities:
 * Learn about the different file storage systems (BTRFS, AUFS, ZFS, etc) (???)
 * Learn about the reasons different storage systems are better or worse for Docker images (???)
 
-## Day 5 - Getting started with Go
+## Day 6 - Getting started with Go
 
 Activities:
 * Read "Introducing Go" [8 hrs]
     - Practice examples as you come across in the book
 
-## Day 6 - More Go lang
+## Day 7 - More Go lang
 
 Activities
 * Go by Example - https://gobyexample.com/ [4 hrs]
 * Effective Go - https://golang.org/doc/effective_go.html [ 4 hrs]
 
-## Day 7 - Continue learning and practicing Go lang
+## Day 8 - Continue learning and practicing Go lang
 
 Activities: [8 hrs]
 * Anytime you need to search on Google for a Go question, search with the term "golang" instead of "go"..
@@ -143,14 +153,14 @@ Activities: [8 hrs]
     - Understanding how to use defer and recover in your application can be a bit tricky at first, especially if you are used to using try/catch blocks. There is a pattern you can implement to provide that same type of try/catch protection in Go. Before I can show you this you need to learn how Defer, Panic and Recover work. (read link)
 * [Monitoring Golang Production Server Memory Stats](https://gitlab.jisto.com/andrey/wiki/wikis/golang-memstats-guide)
 
-## Day 8 - Learning Node.js
+## Day 9 - Learning Node.js
 
 Activities:
 * Follow the tutorial at http://www.tutorialspoint.com/nodejs/ [8 hrs]
     - Skip "Web Module", "Express Framework", "ReSTful API" and "Scaling Application" sections 
 * Study [Lo-Dash](https://lodash.com/docs) or [Underscore](http://underscorejs.org/)
 
-## Day 9 - Protocol Buffers
+## Day 10 - Protocol Buffers
 
 Activities:
 * We are using Protocol Buffers version 3.0, syntax guide: [proto3](https://developers.google.com/protocol-buffers/docs/proto3). [4 hrs]
@@ -162,7 +172,7 @@ Activities:
 * Write a Go Program to take Person and Address information at command line and serialize the protobuf representation into a file.
 * Write a Go Program to read the Person and Address information from the serialized file and display in the console.
 
-## Day 10 - gRPC
+## Day 11 - gRPC
 
 Activities:
 * gRPC is a language-neutral, platform-neutral, open source, remote procedure call (RPC) system initially developed at Google.
@@ -172,4 +182,4 @@ Activities:
 * http://www.grpc.io/docs/tutorials/basic/go.html - gRPC & Golang
 * http://www.grpc.io/docs/tutorials/basic/node.html - gRPC & Node.js
 
-## Day 11-15 - Interactive Project
+## Day 12-16 - Interactive Project
