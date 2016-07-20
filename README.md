@@ -122,7 +122,7 @@ Activities: [8 hrs]
     - Understanding how to use defer and recover in your application can be a bit tricky at first, especially if you are used to using try/catch blocks. There is a pattern you can implement to provide that same type of try/catch protection in Go. Before I can show you this you need to learn how Defer, Panic and Recover work. (read link)
 * [Monitoring Golang Production Server Memory Stats](https://gitlab.jisto.com/andrey/wiki/wikis/golang-memstats-guide)
 
-## Day 7 & 8
+## Day 7-9
 * Practice Project on Go (Choose from below ideas)
 1)​ ​Chat server+client (hub and spoke model, all messages are routed via the server)
 2) Chat Application (p2p - each app should be able to connect to multiple clients and the chat history should appear in the same window. Very much like IRC channels)
@@ -151,7 +151,7 @@ Activities:
 * http://www.grpc.io/docs/tutorials/basic/go.html - gRPC & Golang
 * http://www.grpc.io/docs/tutorials/basic/node.html - gRPC & Node.js
 
-## Day 4 - Understanding Docker
+## Day 11 - Understanding Docker
 
 Activities:
 * Start your day reading "Docker for Beginners" http://prakhar.me/docker-curriculum/ - Upto section 2.4 [150 mins]
@@ -182,7 +182,7 @@ More References:
 * Lots of blogs - https://www.digitalocean.com/community/tags/docker?type=tutorials
 * Setting up Redis Server - https://scotch.io/tutorials/getting-started-with-docker
 
-## Day 5 - Remaining topics of docker
+## Day 12 - Remaining topics of docker
 
 Activities:
 * Learn about how containers are stateless (???)
@@ -191,7 +191,7 @@ Activities:
 * Learn about the reasons different storage systems are better or worse for Docker images (???)
 
 
-## Day 12-16 - Interactive Project
+## Day 13-16 - Interactive Project
 
 
 
