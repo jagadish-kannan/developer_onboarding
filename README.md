@@ -54,6 +54,9 @@ Activities:
         + Merge vs Rebase
         + Pull vs Fetch vs Remote Update
     - Read man pages for git-clone, git-commit, git-log, git-checkout, git-branch, git-remote - 60 mins
+    - 
+* Or Go through the below web course 
+  - https://app.pluralsight.com/library/courses/git-fundamentals/table-of-contents
 * Git Workflows - https://www.atlassian.com/git/tutorials/comparing-workflows/ - 30 mins
 * Advanced Tips - https://www.atlassian.com/git/tutorials/advanced-overview - 30 mins
 * Github vs Gitlab - https://about.gitlab.com/2016/01/27/comparing-terms-gitlab-github-bitbucket/
@@ -98,6 +101,11 @@ Activities:
 Activities:
 * Read "Introducing Go" [8 hrs]
     - Practice examples as you come across in the book
+    
+* Or Go through the below web course 
+* https://app.pluralsight.com/library/courses/go/table-of-contents
+* For Go-concurrent-programming 
+    - https://app.pluralsight.com/library/courses/go-concurrent-programming/table-of-contents
 
 ## Day 5 - More Go lang
 
